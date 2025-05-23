@@ -36,6 +36,7 @@ int main() {
     // render(ptrShape);
     // render(ptrCircle);
     // render(ptrSquare);
+    //this also might help with the issues test
 
     Circle c(2,4,3);
 

@@ -7,6 +7,7 @@
 Shape::Shape(const int l, const int h) {
     length = l;
     height = h;
+    //this looks fine just added for the issues test
 }
 
 void Shape::draw() {
