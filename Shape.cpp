@@ -9,13 +9,6 @@ Shape::Shape(const int l, const int h) {
     height = h;
 }
 
-int Shape::area() {
-    return length*height;
-}
-int Shape::perimeter() {
-    return ((length*2)+(height*2));
-}
-
 void Shape::draw() {
     std::cout<<"shape"<<std::endl;
 }
