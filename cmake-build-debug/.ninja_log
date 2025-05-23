@@ -1,0 +1,15 @@
+# ninja log v6
+5	510	7696541633757315	CMakeFiles/Practice.dir/main.cpp.obj	756ef23b65f75724
+16	106	7696540000880897	CMakeFiles/Practice.dir/MemberAccessSpecifier.cpp.obj	5cd370c14d2d050a
+510	603	7696541638815259	Practice.exe	5a3f2f1b4fcfbbef
+12	195	7696815425817084	CMakeFiles/Practice.dir/Rectangle.cpp.obj	f0dbe17e35181b53
+40	728	7696815426098920	CMakeFiles/Practice.dir/Manager.cpp.obj	b307ab54941d3be4
+22	737	7696815425915181	CMakeFiles/Practice.dir/Animal.cpp.obj	c681451a75214f1c
+28	746	7696815425978553	CMakeFiles/Practice.dir/Dog.cpp.obj	1d9b7fec0725d351
+34	754	7696815426035698	CMakeFiles/Practice.dir/Employee.cpp.obj	fcaa403f70227e15
+17	860	7696815425872563	CMakeFiles/Practice.dir/Library.cpp.obj	cb0f644d36d40b2e
+59	2310	7696815426291682	CMakeFiles/Practice.dir/Square.cpp.obj	c504769978d2f7cc
+46	2322	7696815426154859	CMakeFiles/Practice.dir/Shape.cpp.obj	f22795d6534d787b
+52	2333	7696815426212531	CMakeFiles/Practice.dir/Circle.cpp.obj	aaabc8a75fc53af
+6	2340	7696815425762610	CMakeFiles/Practice.dir/main.cpp.obj	756ef23b65f75724
+2341	2508	7696815449103229	Practice.exe	151b2c19d3692985
