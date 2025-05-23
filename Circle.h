@@ -11,8 +11,13 @@ class Circle:public Shape {
 private:
 
 public:
-    Circle();
+    int r;
     void draw()override;
+
+    Circle(int l, int h, int r1);
+
+    int area()override;
+    int perimeter()override;
 };
 
 

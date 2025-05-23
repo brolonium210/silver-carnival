@@ -8,11 +8,14 @@
 #include <bits/stdc++.h>
 
 class Square:public Shape {
+private:
+
 
 public:
-    Square();
+    Square(const int l, const int h);
     void draw() override;
-
+    int area()override;
+    int perimeter()override;
 };
 
 

@@ -25,17 +25,20 @@ void render(Shape* s) {
 
 
 int main() {
-    Shape s;
-    Circle c;
-    Square q;
+    // Shape s;
+    // Circle c;
+    // Square q;
 
-    Shape* ptrShape = &s;
-    Shape* ptrCircle = &c;
-    Shape* ptrSquare = &q;
+    // Shape* ptrShape = &s;
+    // Shape* ptrCircle = &c;
+    // Shape* ptrSquare = &q;
+    //
+    // render(ptrShape);
+    // render(ptrCircle);
+    // render(ptrSquare);
 
-    render(ptrShape);
-    render(ptrCircle);
-    render(ptrSquare);
+    Circle c(2,4,3);
+
 
 
     return 0;

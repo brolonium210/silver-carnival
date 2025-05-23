@@ -9,11 +9,16 @@
 
 
 class Shape {
-private:
-
 public:
-    Shape();
+    virtual ~Shape() = default;
+
+    Shape(int l,int h);
+    int length;
+    int height;
     virtual void draw();
+    virtual int area();
+    virtual int perimeter();
+
 };
 
 
