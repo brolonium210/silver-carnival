@@ -22,4 +22,10 @@ add_executable(Practice main.cpp
         Circle.h
         Square.cpp
         Square.h
+        Appliance.cpp
+        Appliance.h
+        WashingMachine.cpp
+        WashingMachine.h
+        Microwave.cpp
+        Microwave.h
 )
