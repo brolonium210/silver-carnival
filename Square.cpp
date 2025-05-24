@@ -5,7 +5,8 @@
 #include "Square.h"
 #include <bits/stdc++.h>
 
-Square::Square(const int l, const int h):Square(l,h){}
+Square::Square(const int l, const int h):Shape(l,h){}
+
 void Square::draw() {
     std::cout<<"square"<<std::endl;
 }

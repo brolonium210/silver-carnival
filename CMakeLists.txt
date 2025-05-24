@@ -28,4 +28,6 @@ add_executable(Practice main.cpp
         WashingMachine.h
         Microwave.cpp
         Microwave.h
+        Point.h
+        AddressBookEntry.h
 )
