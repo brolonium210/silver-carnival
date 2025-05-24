@@ -16,8 +16,8 @@ public:
     int length;
     int height;
     virtual void draw();
-    virtual int area();
-    virtual int perimeter();
+    virtual int area() = 0;
+    virtual int perimeter() = 0;
 
 };
 

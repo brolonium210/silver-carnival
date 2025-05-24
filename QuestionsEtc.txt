@@ -37,5 +37,43 @@ dont need the constructor
 
 
 
+Structs problems #7
+Structs
+Problem 7: Point Struct (Difficulty: 2)
+Create a struct Point with x and y.
+Write a function that takes a Point by reference and prints it.
+Problem 8: AddressBookEntry (Difficulty: 3)
+Create a struct AddressBookEntry with name, email, and phone.
+Use a std::vector<AddressBookEntry>.
+Add entries, search by name, and print them all.
+
+
+one header per struct ,put #pragma once in the top of the header
+
+def need to work on accessing things via reference in c functions
+will be super useful
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

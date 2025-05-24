@@ -4,9 +4,9 @@
 
 #include "Appliance.h"
 
-void Appliance::run(){
+Appliance::Appliance(){};
 
-}
+void Appliance::run(){}
 
 
 
