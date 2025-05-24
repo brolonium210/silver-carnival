@@ -1,0 +1,41 @@
+had issues with just getting my head around classes and abstract classes
+class Appliance {
+public:
+    Appliance();
+    virtual void run() = 0;  // Pure virtual
+};
+
+This makes Appliance abstract:
+
+    You can’t instantiate it
+
+    Any derived class must override run()
+
+When a class has a pure virtual function (like run()), the .cpp file usually only contains:
+
+    The constructor (if you defined one)
+
+    Maybe the destructor
+
+    But not the body of the pure virtual function (since there isn’t one)
+
+#include "Appliance.h"
+
+Appliance::Appliance() {
+    // Optional: constructor body
+}
+
+That’s it! You don’t implement run() in Appliance.cpp because:
+
+    run() is declared = 0 (pure virtual)
+
+    The derived classes (WashingMachine, Microwave) will implement run()
+
+
+
+dont need the constructor
+
+
+
+
+

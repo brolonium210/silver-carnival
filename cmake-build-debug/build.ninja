@@ -109,6 +109,24 @@ build CMakeFiles/Practice.dir/Square.cpp.obj: CXX_COMPILER__Practice_unscanned_D
   OBJECT_DIR = CMakeFiles\Practice.dir
   OBJECT_FILE_DIR = CMakeFiles\Practice.dir
 
+build CMakeFiles/Practice.dir/Appliance.cpp.obj: CXX_COMPILER__Practice_unscanned_Debug C$:/Users/parrg/Downloads/NWEN241/Practice/Appliance.cpp || cmake_object_order_depends_target_Practice
+  DEP_FILE = CMakeFiles\Practice.dir\Appliance.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practice.dir
+
+build CMakeFiles/Practice.dir/WashingMachine.cpp.obj: CXX_COMPILER__Practice_unscanned_Debug C$:/Users/parrg/Downloads/NWEN241/Practice/WashingMachine.cpp || cmake_object_order_depends_target_Practice
+  DEP_FILE = CMakeFiles\Practice.dir\WashingMachine.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practice.dir
+
+build CMakeFiles/Practice.dir/Microwave.cpp.obj: CXX_COMPILER__Practice_unscanned_Debug C$:/Users/parrg/Downloads/NWEN241/Practice/Microwave.cpp || cmake_object_order_depends_target_Practice
+  DEP_FILE = CMakeFiles\Practice.dir\Microwave.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Practice.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practice.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Practice
@@ -117,7 +135,7 @@ build CMakeFiles/Practice.dir/Square.cpp.obj: CXX_COMPILER__Practice_unscanned_D
 #############################################
 # Link the executable Practice.exe
 
-build Practice.exe: CXX_EXECUTABLE_LINKER__Practice_Debug CMakeFiles/Practice.dir/main.cpp.obj CMakeFiles/Practice.dir/Rectangle.cpp.obj CMakeFiles/Practice.dir/Library.cpp.obj CMakeFiles/Practice.dir/Animal.cpp.obj CMakeFiles/Practice.dir/Dog.cpp.obj CMakeFiles/Practice.dir/Employee.cpp.obj CMakeFiles/Practice.dir/Manager.cpp.obj CMakeFiles/Practice.dir/Shape.cpp.obj CMakeFiles/Practice.dir/Circle.cpp.obj CMakeFiles/Practice.dir/Square.cpp.obj
+build Practice.exe: CXX_EXECUTABLE_LINKER__Practice_Debug CMakeFiles/Practice.dir/main.cpp.obj CMakeFiles/Practice.dir/Rectangle.cpp.obj CMakeFiles/Practice.dir/Library.cpp.obj CMakeFiles/Practice.dir/Animal.cpp.obj CMakeFiles/Practice.dir/Dog.cpp.obj CMakeFiles/Practice.dir/Employee.cpp.obj CMakeFiles/Practice.dir/Manager.cpp.obj CMakeFiles/Practice.dir/Shape.cpp.obj CMakeFiles/Practice.dir/Circle.cpp.obj CMakeFiles/Practice.dir/Square.cpp.obj CMakeFiles/Practice.dir/Appliance.cpp.obj CMakeFiles/Practice.dir/WashingMachine.cpp.obj CMakeFiles/Practice.dir/Microwave.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Practice.dir
